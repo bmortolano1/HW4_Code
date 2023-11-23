@@ -66,69 +66,69 @@ if __name__ == '__main__':
     sigma = 0.1
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 100/873, sigma)
     print("C: " + str(100 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 500/873, sigma)
     print("C: " + str(500 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 700/873, sigma)
     print("C: " + str(700 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
 
     sigma = 0.5
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 100/873, sigma)
     print("C: " + str(100 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 500/873, sigma)
     print("C: " + str(500 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 700/873, sigma)
     print("C: " + str(700 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
 
     sigma = 1
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 100/873, sigma)
     print("C: " + str(100 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 500/873, sigma)
     print("C: " + str(500 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 700/873, sigma)
     print("C: " + str(700 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
 
     sigma = 5
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 100/873, sigma)
     print("C: " + str(100 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 500/873, sigma)
     print("C: " + str(500 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 700/873, sigma)
     print("C: " + str(700 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
 
     sigma = 100
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 100/873, sigma)
     print("C: " + str(100 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 500/873, sigma)
     print("C: " + str(500 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
     alpha = dual.optimize_alpha_gauss(train_features, train_labels, 700/873, sigma)
     print("C: " + str(700 / 873) + ", Sigma: " + str(sigma) + ", Train Accuracy: " + str(
-        dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
+        dual.calc_error_gauss(alpha, train_labels, train_features, train_labels, train_features, sigma)) + ", Test Accuracy: " + str(
         dual.calc_error_gauss(alpha, test_labels, test_features, train_labels, train_features, sigma)))
